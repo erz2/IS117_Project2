@@ -3,43 +3,78 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Piero's Music</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-
+		
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <!-- Add your site or application content here -->
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
 		
 		<div id="wrapper">
-			<div id="branding"></div>
-			<div id="primary_links"></div>
-			<div id="content"></div>
-			<div id="footer"></div>
+			<div id="branding" class="container">
+				<div id="mainlogo">
+					<img src="img/logo.gif" alt="Piero's Music">
+				</div>
+			</div>
+			<div id="nav-background">
+				<div id="nav" class="container">
+					<ul>
+						<li><a href="#Services">Services</a></li>
+						<li><a href="#Lessons">Lessons</a></li>
+						<li><a href="#Gallery">Gallery</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="content" class="container">
+				<h2>"Helping You Get Your Axe Together"</h2>
+				<span id="storefront_img">
+					<img src="img/storefront.png" alt="Piero's storefront">
+				</span>
+				<span id="lou_img">
+					<img src="img/lou.png">
+				</span>
+				<div id="about_text">
+					<p>Piero's Music was founded in 1952, and since then we've strived to provide our customers with the 
+					best possible service. We are proud to be a family owned and operated business, and as such, we hope to 
+					treat all of our customers as one of our own. Whether you need a new drum kit, need to fix an old 
+					guitar, or you want to learn how to play the bass, we aim to satisfy all of your musical needs. So
+					stop on by and see us. You'll be glad you did.</p>
+					<p>Piero's Music is located at 942 Broadway in Bayonne, NJ 07002<br>
+					You can contact Piero's Music at (201)-437-3220</p>
+				</div>
+				<div id="services_header">
+					<a id="Services">Services</a>
+				</div>
+				<h3>Guitar</h3>
+				<div id="table_area" class="container">
+					<table>
+						<tr>
+							<th class="table_header">Service</th>
+							<th class="table_header">Description</th>
+							<th class="table_header">Cost</th>
+						</tr>
+						<tr>
+							<td>6-String Guitar and Bass Setup</td>
+							<td>Includes nut, saddle, truss adjustment, intonation, clean and oil fretboard, fret polish, and re-string</td>
+							<td>$60</td>
+						</tr>
+						<tr>
+							<td>12-String Guitar Setup</td>
+							<td></td>
+							<td>$80</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="footer" class="container"></div>
 		</div>
     </body>
 </html>
