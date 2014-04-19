@@ -259,7 +259,7 @@ textarea {
 	#content #logo_area{
 		position: relative;
 		background-color: white;
-		height: 700px;
+		height: 560px;
 	}
 	
 	#content #logo_area #gretsch_logo{
@@ -283,6 +283,54 @@ textarea {
 	#content #logo_area #emg_logo{
 		margin-left: 740px;
 		margin-top: 0px;
+		position: absolute;
+	}
+	
+	#content #logo_area #ibanez_logo{
+		margin-left: 13px;
+		margin-top: 230px;
+		position: absolute; 
+	}
+	
+	#content #logo_area #jayturser_logo{
+		margin-left: 250px;
+		margin-top: 240px;
+		position: absolute;
+	}
+	
+	#content #logo_area #tama_logo{
+		margin-left: 492px;
+		margin-top: 230px;
+		position: absolute;
+	}
+	
+	#content #logo_area #walden_logo{
+		margin-left: 740px;
+		margin-top: 220px;
+		position: absolute;
+	}
+	
+	#content #logo_area #dimarzio_logo{
+		margin-left: 14px;
+		margin-top: 350px;
+		position: absolute;
+	}
+	
+	#content #logo_area #ernieball_logo{
+		margin-left: 250px;
+		margin-top: 350px;
+		position: absolute;
+	}
+	
+	#content #logo_area #prs_logo{
+		margin-left: 492px;
+		margin-top: 355px;
+		position: absolute;
+	}
+	
+	#content #logo_area #danelectro_logo{
+		margin-left: 740px;
+		margin-top: 350px;
 		position: absolute;
 	}
 	
